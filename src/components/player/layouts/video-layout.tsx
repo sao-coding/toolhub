@@ -62,6 +62,7 @@ const VideoLayout = ({ thumbnails }: VideoLayoutProps) => {
           </div>
           {/* <Buttons.Caption tooltipPlacement='top' /> */}
           {/* <Menus.Settings placement='top end' tooltipPlacement='top' /> */}
+          <Buttons.Speed tooltipPlacement="top" />
           <Buttons.Cast tooltipPlacement="top" />
           <Buttons.PIP tooltipPlacement="top" />
           <Buttons.Fullscreen tooltipPlacement="top end" />
